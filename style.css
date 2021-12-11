@@ -48,9 +48,10 @@ hr{
 #container{
     display: flex;
     flex-direction: row;
-    margin-left: 5%;
+    margin-top:50px;
+    margin-left: 15px;
     height: 100%;
-    width: 90%;
+    width: 97%;
     border: 3px groove silver;
 }
 
@@ -92,7 +93,7 @@ label {
     background-image: url('shutterstock_667602718.jpg');
     background-size: cover;
     position: absolute;
-    top: 50px;
+    top: 100px;
     left: 500px;
     align-items: center;
     display: flex;
@@ -122,8 +123,8 @@ label {
 #output{
     background-color: rgba(27, 5, 5, 0.842);
     position: absolute;
-    top: 30px;
-    right: 100px;
+    top: 90px;
+    right: 50px;
     display: flex;
     flex-direction: column;
     height: 100% fit-content;
@@ -150,8 +151,8 @@ label {
     background-image: url('shutterstock_667602718.jpg');
     background-size: cover;
     position: absolute;
-    top: 270px;
-    left: 320px;
+    top: 350px;
+    left: 300px;
     align-items: center;
     display: flex;
     flex-direction: column;
