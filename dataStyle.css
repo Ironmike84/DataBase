@@ -1,0 +1,407 @@
+body{
+    background-image: url('Abstract.jpg');
+    background-size: cover;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: chartreuse;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+}
+
+input{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    width: 150px;
+    color: rgb(207, 253, 160);
+    background-color: rgba(31, 29, 29, 0.842);
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+
+button{
+    cursor: pointer;
+    font-family: 'M PLUS 1 Code', sans-serif;
+    color: chartreuse;
+    background-color: rgb(29, 28, 28);
+    border: 1px solild rgba(134, 4, 4, 0.842);
+    height: 25px;
+    width: fit-content;
+}
+
+hr{
+    width: 75%;
+    border: 1px inset rgb(112, 111, 111);
+}
+
+#container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    height: 100%;
+    width: 90%;
+    border: 3px groove silver;
+}
+
+label {
+    padding-left: 5px;
+    padding-bottom:5px;
+}
+
+#input{
+    background-image: url('shutterstock_667602718.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 100% fit-content;
+    width: 15% fit-content;
+    border-right: 1px solid rgba(119, 7, 7, 0.842);
+    padding: 25px;
+    transition: 1s ease-in-out;
+}
+
+#input:hover{
+    box-shadow: 
+    1px 1px 2px rgb(94, 0, 0),
+    2px 2px 6px rgb(94, 0, 0),
+    4px 4px 12px rgb(94, 0, 0);
+
+}
+
+
+#dataTitle{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+#data{
+    Color: chartreuse;
+    font-weight: bold;
+    background-image: url('shutterstock_667602718.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 50px;
+    left: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 100% fit-content;
+    width: 25%;
+    border: 1px solid rgba(119, 7, 7, 0.842);
+    padding: 15px;
+    box-shadow: 
+    1px 1px 2px rgb(94, 0, 0),
+    2px 2px 6px rgb(94, 0, 0);
+    transition: 1s ease-in-out;
+ 
+}
+
+#data:hover{
+    box-shadow: 
+    1px 1px 2px rgb(94, 0, 0),
+    2px 2px 6px rgb(94, 0, 0),
+    4px 4px 12px rgb(94, 0, 0),
+    -1px -1px 2px rgb(94, 0, 0),
+    -2px -2px 6px rgb(94, 0, 0),
+    -4px -4px 12px rgb(94, 0, 0);
+}
+
+
+#output{
+    background-color: rgba(27, 5, 5, 0.842);
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    height: 100% fit-content;
+    width: 15% fit-content;
+    border: 1px solid red;
+    padding: 25px;
+    transition: 1s ease-in-out;
+}
+
+#output:hover{
+            box-shadow: 
+        1px 1px 2px rgb(94, 0, 0),
+        2px 2px 6px rgb(94, 0, 0),
+        4px 4px 12px rgb(94, 0, 0),
+        -1px -1px 2px rgb(94, 0, 0),
+        -2px -2px 6px rgb(94, 0, 0),
+        -4px -4px 12px rgb(94, 0, 0);
+    }
+
+
+#allNames{
+    Color: rgb(217, 243, 191);
+    font-weight: bold;
+    background-image: url('shutterstock_667602718.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 270px;
+    left: 320px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 300px fit-content;
+    width: 50%;
+    border: 1px solid rgba(119, 7, 7, 0.842);
+    padding: 15px;
+    transition: 1s ease-in-out;
+}
+#allNames:hover{
+    box-shadow: 
+    1px 1px 2px rgb(94, 0, 0),
+    2px 2px 6px rgb(94, 0, 0),
+    4px 4px 12px rgb(94, 0, 0),
+    -1px -1px 2px rgb(94, 0, 0),
+    -2px -2px 6px rgb(94, 0, 0),
+    -4px -4px 12px rgb(94, 0, 0);
+}
+
+#sortButtons{
+    padding-top: 7px;
+    padding-left:10px;
+    text-align: center;
+    border: 1px solid red;
+   
+
+}
+#allNamesContainer{
+    border: 1px inset silver;
+    text-align: left;
+    margin-top: 10px;
+    width: 500px;
+    height: 250px;
+    overflow-y: scroll;
+    background-color: rgba(0, 0, 0, 0.601);
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+
+}
+
+
+
+#firstNamed{
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+
+#lastName{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#height{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#weight{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#age{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#religion{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#race{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#email{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+#phone{  
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    background-color: rgb(29, 28, 28);
+    width: 200px;
+    height: 30px;
+    border: 1px solid red;
+    box-shadow: 
+    1px 1px 2px rgba(17, 17, 17, 0.601),
+    2px 2px 6px rgba(17, 17, 17, 0.601),
+    4px 4px 12px rgba(14, 13, 14, 0.601),
+    -1px -1px 2px rgba(0, 0, 0, 0.601),
+    -2px -2px 6px rgba(2, 2, 2, 0.801),
+    -4px -4px 12px rgba(70, 68, 68, 0.341),
+    inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+    inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+    inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+    inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+    inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+}
+
