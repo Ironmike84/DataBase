@@ -128,7 +128,7 @@ label {
     display: flex;
     flex-direction: column;
     height: 100% fit-content;
-    width: 250px;
+    width: 220px fit-content;
     border: 1px solid red;
     padding: 25px;
     transition: 1s ease-in-out;
@@ -437,7 +437,7 @@ label {
             display: flex;
             flex-direction: column;
             height: 100% fit-content;
-            width: 15%;
+            width: 220px;
             border: 1px solid red;
             padding: 25px;
             transition: 1s ease-in-out;
@@ -465,18 +465,19 @@ label {
   @supports (display: flex) {
     @media screen and (max-width: 1152px) and  (min-width: 100px)  {
         #version{
-            position: fixed;
+            position: absolute;
             top: 0px;
-            left: 0px;
+            left: 100px;
         }
         #container{
+            border:1px outset rgba(31, 29, 29, 0.842);
             display: flex;
             flex-direction: row;
             margin-top:50px;
-            margin-left: 5px;
+            margin-left: 15px;
             height: 2000px;
             width: 270px;
-            border: 3px groove silver;
+      
         }
         input{
             margin-left: 30px;
@@ -496,14 +497,20 @@ label {
         #data{
             position: absolute;
             top: 750px;
-            left: 25px;
+            left: 35px;
             align-items: center;
             display: flex;
             flex-direction: column;
             height: 100% fit-content;
-            width: 175px;
+            width: 195px;
+            border-radius: 15px;
             border: 1px solid rgba(119, 7, 7, 0.842);
-            padding: 10px;         
+            padding: 15px;         
+        }
+
+        #data:hover{
+                   border: 1px solid rgba(49, 201, 3, 0.842);
+           
         }
 
         #output{
@@ -514,7 +521,7 @@ label {
             display: flex;
             flex-direction: column;
             height: 100% fit-content;
-            width: 45%;
+            width: 200px;
             border: 1px solid red;
            
             transition: 1s ease-in-out;
@@ -533,16 +540,18 @@ label {
             display: flex;
             flex-direction: column;
             height: 300px fit-content;
-            width: 50%;
+            width: 70%;
             border: 1px solid rgba(119, 7, 7, 0.842);
-            padding: 15px;
+            padding: 0px;
             transition: 1s ease-in-out;
         }
         #allNamesContainer{
+            text-align: center;
+            font-size: 8pt;
             border: 1px inset silver;
             text-align: left;
             margin-top: 10px;
-            width: fit-content;
+            width: 98%;
             height: 250px;
             overflow-y: scroll;
             background-color: rgba(0, 0, 0, 0.601);
@@ -559,6 +568,13 @@ label {
             inset -1px -1px 2px rgba(24, 23, 23, 0.601),
             inset -3px -3px 5px rgba(19, 18, 18, 0.601),
             inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+        }
+              
+        #sortButtons{
+            padding-top: 2px;
+            padding-left:2px;
+            text-align: center;
+            border: 1px solid red;
         }
 
         #firstNamed{
