@@ -128,7 +128,7 @@ label {
     display: flex;
     flex-direction: column;
     height: 100% fit-content;
-    width: 15% fit-content;
+    width: 250px;
     border: 1px solid red;
     padding: 25px;
     transition: 1s ease-in-out;
@@ -406,3 +406,253 @@ label {
     inset 2px 2px 3px rgba(14, 13, 14, 0.801);
 }
 
+/* @media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+} */
+
+/* Nested within another conditional at-rule */
+@supports (display: flex) {
+    @media screen and (max-width: 1294px) and  (min-width: 1148px)  {
+        #data{
+            position: absolute;
+            top: 100px;
+            left: 400px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100% fit-content;
+            width: 25%;
+            border: 1px solid rgba(119, 7, 7, 0.842);
+            padding: 15px;         
+        }
+
+        #output{
+            background-color: rgba(27, 5, 5, 0.842);
+            position: absolute;
+            top: 90px;
+            right: 45px;
+            display: flex;
+            flex-direction: column;
+            height: 100% fit-content;
+            width: 15%;
+            border: 1px solid red;
+            padding: 25px;
+            transition: 1s ease-in-out;
+        } 
+        #allNames{
+            Color: rgb(217, 243, 191);
+            font-weight: bold;
+            background-image: url('shutterstock_667602718.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 350px;
+            left: 230px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 300px fit-content;
+            width: 50%;
+            border: 1px solid rgba(119, 7, 7, 0.842);
+            padding: 15px;
+            transition: 1s ease-in-out;
+        }
+    }
+  }
+
+  @supports (display: flex) {
+    @media screen and (max-width: 1152px) and  (min-width: 100px)  {
+        #version{
+            position: fixed;
+            top: 0px;
+            left: 0px;
+        }
+        #container{
+            display: flex;
+            flex-direction: row;
+            margin-top:50px;
+            margin-left: 5px;
+            height: 2000px;
+            width: 270px;
+            border: 3px groove silver;
+        }
+        input{
+            margin-left: 30px;
+        }
+        #input{
+            display: flex;
+            flex-direction: column;
+            height: fit-content;
+            width: fit-content;
+            border-right: 1px solid rgba(119, 7, 7, 0.842);
+            padding: 25px;
+            margin-left: 5px;
+            width: 250px;
+            transition: 1s ease-in-out;
+        }
+
+        #data{
+            position: absolute;
+            top: 750px;
+            left: 25px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 100% fit-content;
+            width: 175px;
+            border: 1px solid rgba(119, 7, 7, 0.842);
+            padding: 10px;         
+        }
+
+        #output{
+            background-color: rgba(27, 5, 5, 0.842);
+            position: absolute;
+            top: 970px;
+            left: 20px;
+            display: flex;
+            flex-direction: column;
+            height: 100% fit-content;
+            width: 45%;
+            border: 1px solid red;
+           
+            transition: 1s ease-in-out;
+        } 
+        
+
+        #allNames{
+            Color: rgb(217, 243, 191);
+            font-weight: bold;
+            background-image: url('shutterstock_667602718.jpg');
+            background-size: cover;
+            position: absolute;
+            top: 1600px;
+            left: 20px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            height: 300px fit-content;
+            width: 50%;
+            border: 1px solid rgba(119, 7, 7, 0.842);
+            padding: 15px;
+            transition: 1s ease-in-out;
+        }
+        #allNamesContainer{
+            border: 1px inset silver;
+            text-align: left;
+            margin-top: 10px;
+            width: fit-content;
+            height: 250px;
+            overflow-y: scroll;
+            background-color: rgba(0, 0, 0, 0.601);
+            box-shadow: 
+            1px 1px 2px rgba(17, 17, 17, 0.601),
+            2px 2px 6px rgba(17, 17, 17, 0.601),
+            4px 4px 12px rgba(14, 13, 14, 0.601),
+            -1px -1px 2px rgba(0, 0, 0, 0.601),
+            -2px -2px 6px rgba(2, 2, 2, 0.801),
+            -4px -4px 12px rgba(70, 68, 68, 0.341),
+            inset 1px 1px 2px rgba(19, 18, 18, 0.601),
+            inset 2px 2px 6px rgba(0, 0, 0, 0.601),
+            inset 3px 3px 5px rgba(19, 18, 18, 0.601),
+            inset -1px -1px 2px rgba(24, 23, 23, 0.601),
+            inset -3px -3px 5px rgba(19, 18, 18, 0.601),
+            inset 2px 2px 3px rgba(14, 13, 14, 0.801);
+        }
+
+        #firstNamed{
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        
+        #lastName{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #height{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #weight{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #age{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #religion{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+
+        }
+        #race{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #email{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+        #phone{  
+            text-align: center;
+            margin-top: 5px;
+            margin-left: 10px;
+            background-color: rgb(29, 28, 28);
+            width: 150px;
+            height: 30px;
+            border: 1px solid red;
+
+        }
+
+    }
+  }
